@@ -1,0 +1,53 @@
+body{
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    height: 90%;
+}
+.card{
+    cursor: pointer;
+    border-radius: 50px;
+    flex: 0.5;
+    position: relative;
+    margin: 10px;
+    transition: 1s;
+}
+
+h3{
+    position: absolute; 
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+    visibility: hidden;
+    color: white;
+    font-size: 1.4rem;
+}
+
+.card.active{
+    flex: 5;
+}
+.card.active h3{
+    visibility: visible;
+}
+.card1{
+    
+    background-image:url("imgs/photo-1558979158-65a1eaa08691.jfif") ;
+}
+.card2{
+  
+    background-image:url("imgs/photo-1572276596237-5db2c3e16c5d.jfif") ;
+}
+.card3{
+  
+    background-image:url("imgs/photo-1507525428034-b723cf961d3e.jfif") ;
+}
+.card4{
+  
+    background-image:url("imgs/photo-1551009175-8a68da93d5f9.jfif") ;
+}
+.card5{
+  
+    background-image:url("imgs/photo-1549880338-65ddcdfd017b.jfif") ;
+}
