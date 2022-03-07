@@ -1,0 +1,49 @@
+body{
+    width: 100%;
+    margin: 0;
+    
+}
+.container{
+    box-sizing: content-box;
+    height: 100vh;
+    background-color: #7158e2;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+  
+}
+
+.search-container{
+  
+    position: relative;
+    height: 50px;
+}
+button{
+    width: 50px;
+    position: absolute;
+    left: 0;
+    top:0
+}
+input ,button{
+    font-size: 16px;
+    margin: 0;
+    padding: 5px;
+    height: 50px;
+    outline: none;
+    background-color: aliceblue;
+    border:aliceblue ;
+}
+
+
+.input-search{
+    transition: width 0.3s ease;
+    width: 0px;
+}
+.search-container.active .input-search{
+    width: 200px;
+}
+.search-container.active button{
+    transform: translateX(190px);
+    transition: transform 0.3s ease;
+}

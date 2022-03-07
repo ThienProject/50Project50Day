@@ -1,0 +1,27 @@
+
+*{
+    margin: 0;
+    padding:0;
+}
+body {
+    margin: 0;  
+}
+
+.background{
+    position: relative;
+    height: 100vh;
+    background-image: url(imgs/photo-1576161787924-01bb08dad4a4.jpg);
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    filter: blur(0px);
+    z-index: -1;
+
+}
+.loading-text{
+    position: absolute;
+    top:50%;
+    left:50%;
+    color: #fff;
+    font-size: 50px;
+}
